@@ -15,6 +15,8 @@ const HomePage = () => <><C.Hero
 
   <C.OurPeople />
 
+  <C.Info />
+
 
   <C.Services bg={true} url="/services" btn="views more"
     description={serviceCards[0].description} heading={serviceCards[0].heading} services={serviceCards[0].services}

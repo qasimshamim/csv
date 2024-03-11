@@ -180,3 +180,7 @@ export interface ServiceDetailCard {
     description: string;
     cardsData: CardsData[];
 }
+
+export interface OurTeam extends WorkCards {
+    name: string;
+}
