@@ -1,6 +1,6 @@
-import * as C from "@/components/index" 
+"use client"
+import * as C from "@/components/index"
 import { FaLinkedin } from "react-icons/fa";
-import Link from "next/link"
 import ourTeam from "@/utils/ourTeam";
 
 
@@ -18,7 +18,7 @@ const page = () => {
 
                 <div className="pt-20 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
                     <div className="mx-auto mb-8 max-w-screen-sm lg:mb-16">
-                        <h2 className="mb-4 text-4xl md:text-6xl tracking-tight font-extrabold text-TDarkBlue  ">
+                        <h2 className="mb-4 text-4xl md:text-6xl tracking-tight font-extrabold text-TDarkBlue capitalize ">
                             Our team
                         </h2>
                         <p className="font-light text-gray-500 sm:text-xl  ">
@@ -35,18 +35,13 @@ const page = () => {
                                 src={v.image}
                                 alt="Bonnie Avatar"
                             />
-                            <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900  ">
-                                <Link href={v.url}>{v.name}</Link>
+                            <h3 onClick={() => window.open(v.url, '_blank')} className="mb-1 text-2xl cursor-pointer hover:underline font-bold tracking-tight text-gray-900 uppercase">
+                                {v.name}
                             </h3>
-                            <p>{v.text}</p>
+                            <p className="capitalize">{v.text}</p>
                             <ul className="flex justify-center mt-4 space-x-4">
-                                <li>
-                                    <Link
-                                        href={v.url}
-                                        className="text-Tblue hover:text-gray-900"
-                                    >
-                                        <FaLinkedin />
-                                    </Link>
+                                <li onClick={() => window.open(v.url, '_blank')} className="text-Tblue capitalize hover:text-gray-900 cursor-pointer">
+                                    <FaLinkedin />
                                 </li>
                             </ul>
                         </div>)}

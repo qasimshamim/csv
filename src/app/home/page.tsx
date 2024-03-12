@@ -13,6 +13,10 @@ const HomePage = () => <><C.Hero
   <C.Journey />
 
 
+
+  <C.AnimatedAccordiion />
+
+
   <C.OurPeople />
 
   <C.Info />

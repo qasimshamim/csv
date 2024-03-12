@@ -84,6 +84,101 @@
   body {
     @apply bg-background text-foreground;
   }
+
+  .credit {
+    @apply absolute text-inherit left-5 bottom-5;
+  }
+  
+  .options { 
+    @apply flex flex-row items-stretch overflow-hidden min-w-[600px] max-w-[900px]  h-[400px] bg-red-400;
+  }
+  
+  .option {
+    @apply relative overflow-hidden min-w-[100px] bg-[auto_120%] bg-center cursor-pointer transition-[0.5s] duration-300 m-2.5;
+    background: var(--optionBackground, var(--defaultBackground, #e6e9ed));
+  }
+  
+  .option.active {
+    @apply grow-[10000] max-w-[600px] bg-[auto_100%] m-0 rounded-[40px] ;
+  }
+  
+  .option.active .shadow {
+    @apply shadow-[inset_0_-120px_120px_-120px_black,inset_0_-120px_120px_-100px_black];
+  }
+  
+  .option.active .label {
+    @apply left-5 bottom-5;
+  }
+  
+  .option.active .label .info > div {
+    @apply opacity-100 left-0;
+  }
+  
+  .option:not(.active) {
+    @apply grow rounded-[30px];
+  }
+  
+  .option:not(.active) .shadow {
+    @apply shadow-[inset_0_-120px_0_-120px_black,inset_0_-120px_0_-100px_black] -bottom-10;
+  }
+  
+  .option:not(.active) .label {
+    @apply left-2.5 bottom-2.5;
+  }
+  
+  .option:not(.active) .label .info > div {
+    @apply opacity-0 left-5;
+  }
+  
+  .option .shadow {
+    @apply absolute h-[120px] transition-[0.5s] duration-300 bottom-0 inset-x-0;
+  }
+  
+  .option .label {
+    @apply flex absolute h-10 transition-[0.5s] duration-300 right-0;
+  }
+  
+  .option .label .icon {
+    @apply flex justify-center items-center min-w-[40px] max-w-[40px] h-10 bg-[white] rounded-[100%];
+  }
+  
+  .option .label .info {
+    @apply flex flex-col justify-center text-[white] whitespace-pre ml-2.5;
+  }
+  
+  .option .label .info > div {
+    @apply relative;
+    transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95), opacity 0.5s ease-out;
+  }
+  
+  .option .label .info .main {
+    @apply font-[bold] text-[1.2rem];
+  }
+  
+  .option .label .info .sub {
+    @apply delay-300;
+  }
+  
+  @media screen and (max-width: 718px) {
+    .options {
+      @apply min-w-[520px];
+    }
+  }
+  
+  @media screen and (max-width: 638px) {
+    .options {
+      @apply min-w-[440px];
+    }
+  }
+  
+  @media screen and (max-width: 558px) {
+    .options {
+      @apply min-w-[360px];
+    }
+  }
+   
+
+
 }
 
 .glass {  
@@ -112,3 +207,5 @@ backdrop-filter: blur(15px);
 ::-webkit-scrollbar-thumb:hover {
   background: var(--Tblue);
 }  
+
+ 
