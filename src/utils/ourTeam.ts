@@ -3,6 +3,54 @@ import { OurTeam } from "@/types/index"
 
 const ourTeam: OurTeam[] = [
     {
+        image: '/team/18.jpg',
+        text: 'HR Executive',
+        url: 'https://www.linkedin.com/in/hammad-khan-55516b181',
+        name: 'HAMMAD KHAN'
+    },
+    {
+        image: '/team/34.jpg',
+        text: 'Technical Project Manager',
+        url: 'https://www.linkedin.com/in/huzaifa96/',
+        name: 'Muhammad Huzaifa Noor'
+    }, 
+    {
+        image: '/team/4.jpg',
+        text: 'Technical Project Manager',
+        url: 'https://www.linkedin.com/in/abdullah-zubair-/',
+        name: 'ABDULLAH ZUBAIR'
+    },      
+    {
+        image: '/team/24.jpg',
+        text: 'Senior .Net Developer, Team Lead',
+        url: 'https://www.linkedin.com/in/muhammad-sohail-nawaz-4b0b40222?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+        name: 'MUHAMMAD SOHAIL NAWAZ'
+    },     
+    {
+        image: '/team/21.jpg',
+        text: 'Technical Project Manager',
+        url: 'https://www.linkedin.com/in/muneeb-ur-rehman-929647177/',
+        name: 'MUNEEB UR REHMAN'
+    },      
+    {
+        image: '/team/5.jpg',
+        text: 'Senior Python Developer',
+        url: 'https://www.linkedin.com/in/affan-ahmed-0b859521a/',
+        name: 'AFFAN AHMED'
+    }, 
+    {
+        image: '/team/32.jpg',
+        text: 'Mean stack developer',
+        url: 'https://www.linkedin.com/in/usamagulraiz?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
+        name: 'MUHAMMAD USAMA GULRAIZ'
+    },     
+    {
+        image: '/team/20.jpg',
+        text: 'Software Engineer (MEAN, PYTHON, .NET,  DEVOPS)',
+        url: 'https://www.linkedin.com/in/muhammad-sufyan-373819140?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+        name: 'MUHAMMAD SUFYAN'
+    },
+    {
         image: '/team/9.jpg',
         text: 'Full Stack Developer | Next.js | MERN Stack Specialist',
         url: 'https://www.linkedin.com/in/arbab-zafar-web-developer/',
@@ -27,18 +75,6 @@ const ourTeam: OurTeam[] = [
         name: 'ABDUR REHMAN'
     }, 
     {
-        image: '/team/4.jpg',
-        text: 'Technical Project Manager',
-        url: 'https://www.linkedin.com/in/abdullah-zubair-/',
-        name: 'ABDULLAH ZUBAIR'
-    }, 
-    {
-        image: '/team/5.jpg',
-        text: 'Senior Python Developer',
-        url: 'https://www.linkedin.com/in/affan-ahmed-0b859521a/',
-        name: 'AFFAN AHMED'
-    }, 
-    {
         image: '/team/6.jpg',
         text: 'Junior Full Stack Developer',
         url: 'https://www.linkedin.com/in/muhammad-ahmed-bin-abdullah-3701231a3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
@@ -49,13 +85,7 @@ const ourTeam: OurTeam[] = [
         text: 'Sales Executive',
         url: 'https://www.linkedin.com/in/ahmed-afzal-khan-800077140/',
         name: 'AHMED AFZAL KHAN'
-    }, 
-    {
-        image: '/team/8.jpg',
-        text: 'technical project manager',
-        url: 'https://www.linkedin.com/in/aleem-ahmed-47399268/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
-        name: 'aleem ahmad'
-    }, 
+    },  
     {
         image: '/team/10.jpg',
         text: 'Python Developer',
@@ -73,25 +103,13 @@ const ourTeam: OurTeam[] = [
         text: '.Net Developer (Full stack Dev)',
         url: 'https://www.linkedin.com/in/bilal-it',
         name: 'BILAL AHMAD KHAN'
-    }, 
-    {
-        image: '/team/13.jpg',
-        text: 'Head of Projects',
-        url: 'https://www.linkedin.com/in/faizan-afzal-365b34114/',
-        name: 'FAIZAN AFZAL'
-    }, 
+    },  
     {
         image: '/team/14.jpg',
         text: 'Shopify | WordPress Developer',
         url: 'https://www.linkedin.com/in/farhan-awan-shopifyexpert-web-developer/',
         name: 'MUHAMMAD FARHAN'
-    }, 
-    {
-        image: '/team/15.jpg',
-        text: 'Co-Founder & Chairman',
-        url: 'https://www.linkedin.com/in/fasahat-malik-357b0b25/',
-        name: 'Fasahat Malik'
-    }, 
+    },  
     {
         image: '/team/16.jpg',
         text: 'MERN Stack Developer',
@@ -99,47 +117,11 @@ const ourTeam: OurTeam[] = [
         name: 'FAZAL ABBAS'
     }, 
     {
-        image: '/team/17.jpg',
-        text: 'Chief Executive Officer',
-        url: 'https://www.linkedin.com/in/fouad-shahid-60ba5635/',
-        name: 'Fouad Shahid'
-    }, 
-    {
-        image: '/team/18.jpg',
-        text: 'HR Executive',
-        url: 'https://www.linkedin.com/in/hammad-khan-55516b181',
-        name: 'HAMMAD KHAN'
-    },  
-    {
-        image: '/team/20.jpg',
-        text: 'Software Engineer (MEAN, PYTHON, .NET,  DEVOPS)',
-        url: 'https://www.linkedin.com/in/muhammad-sufyan-373819140?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
-        name: 'MUHAMMAD SUFYAN'
-    }, 
-    {
-        image: '/team/21.jpg',
-        text: 'Technical Project Manager',
-        url: 'https://www.linkedin.com/in/muneeb-ur-rehman-929647177/',
-        name: 'MUNEEB UR REHMAN'
-    }, 
-    {
-        image: '/team/22.jpg',
-        text: 'COO & HEAD OF SALES',
-        url: 'https://www.linkedin.com/in/qasim-shamim/',
-        name: 'MUHAMMAD QASIM SHAMIM ALI KHAN'
-    }, 
-    {
         image: '/team/23.jpg',
         text: 'Sales executive',
         url: 'www.linkedin.com/in/samar-abbas',
         name: 'SYED SAMAR '
-    }, 
-    {
-        image: '/team/24.jpg',
-        text: 'Senior .Net Developer, Team Lead',
-        url: 'https://www.linkedin.com/in/muhammad-sohail-nawaz-4b0b40222?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
-        name: 'MUHAMMAD SOHAIL NAWAZ'
-    }, 
+    },
     {
         image: '/team/25.jpg',
         text: 'UI/UX Designer | Graphic Designer',
@@ -153,10 +135,22 @@ const ourTeam: OurTeam[] = [
         name: 'MUHAMMAD TAIMOOR'
     }, 
     {
-        image: '/team/27.jpg',
-        text: 'Head of Human Resource',
-        url: 'https://www.linkedin.com/in/tehzeeb-ahmad-925b55133/',
-        name: 'TEHZEEB AHMAD'
+        image: '/team/31.jpg',
+        text: 'Full Stack Developer',
+        url: 'https://www.linkedin.com/in/usama-bhatti-029bb9190',
+        name: 'USAMA BHATTI'
+    }, 
+    {
+        image: '/team/33.jpg',
+        text: 'Full stack Developer',
+        url: 'https://www.linkedin.com/in/usama-jawaid-551101220?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+        name: 'USAMA JAVAID'
+    },  
+    {
+        image: '/team/30.jpg',
+        text: 'Intern',
+        url: 'https://www.linkedin.com/in/arbab-zafar-web-developer/',
+        name: 'SHAHAB AHMED MALIK'
     }, 
     {
         image: '/team/28.jpg',
@@ -170,36 +164,7 @@ const ourTeam: OurTeam[] = [
         url: 'https://www.linkedin.com/in/arbab-zafar-web-developer/',
         name: 'AWAIS HUSSAIN '
     }, 
-    {
-        image: '/team/30.jpg',
-        text: 'Intern',
-        url: 'https://www.linkedin.com/in/arbab-zafar-web-developer/',
-        name: 'SHAHAB AHMED MALIK'
-    }, 
-    {
-        image: '/team/31.jpg',
-        text: 'Full Stack Developer',
-        url: 'https://www.linkedin.com/in/usama-bhatti-029bb9190',
-        name: 'USAMA BHATTI'
-    }, 
-    {
-        image: '/team/32.jpg',
-        text: 'Mean stack developer',
-        url: 'https://www.linkedin.com/in/usamagulraiz?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
-        name: 'MUHAMMAD USAMA GULRAIZ'
-    }, 
-    {
-        image: '/team/33.jpg',
-        text: 'Full stack Developer',
-        url: 'https://www.linkedin.com/in/usama-jawaid-551101220?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
-        name: 'USAMA JAVAID'
-    }, 
-    {
-        image: '/team/34.jpg',
-        text: 'Technical Project Manager',
-        url: 'https://www.linkedin.com/in/huzaifa96/',
-        name: 'Muhammad Huzaifa Noor'
-    }, 
+   
 ];
 
 export default ourTeam;

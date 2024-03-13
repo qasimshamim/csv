@@ -31,6 +31,7 @@ export const navLinks: T.NavLink[] = [
   { title: "company", link: "/company", menu: false },
   { title: "careers", link: "/careers", menu: false },
   { title: "work", link: "/our-work", menu: false },
+  { title: "Team", link: "/our-team", menu: false },
 ];
 
 
@@ -85,14 +86,14 @@ export const careerFormInputs: T.FormInputs[] = [
 
 
 export const formInfo: T.FormInfo = {
-  image: '/form-info.webp',
-  title: 'qasim shamim',
-  heading: 'Business Expert Manager',
-  email: 'qasimshamim9@gmail.com',
+  image: '/team/15.jpg',
+  title: 'Fasahat Malik',
+  heading: 'Co-Founder & Chairman',
+  email: 'fasahatmalik@gmail.com',
   phone: '571 549 8430',
   link: {
     Icon: FaLinkedinIn,
-    url: 'https://linkedin.com/in/qasim-shamim'
+    url: 'https://www.linkedin.com/in/fasahat-malik-357b0b25/'
   }
 }
 
@@ -301,33 +302,47 @@ export const workCards: T.WorkCards[] = [
 
 export const teamCards: T.TeamCards[] = [
   {
-    image: '/team/1.webp',
-    heading: 'Qasim Ali',
-    tagline: 'Founder and CEO',
-    description: 'Meet Qasim Shahmin, the pioneering CEO and Founder of CSV, leading our dynamic team towards a future of technological brilliance.',
+    image: '/team/15.jpg',
+    heading: 'Fasahat Malik',
+    tagline: 'Co-Founder & Chairman',
+    description: 'Visionary leadership and technological prowess converge under the guidance of our esteemed Co-Founder & Chairman, driving Cybersoft Vantage towards boundless innovation and unparalleled success.',
+    linkedin: 'https://www.linkedin.com/in/fasahat-malik-357b0b25/'
+  }, 
+  {
+    image: '/team/17.jpg',
+    heading: 'Fouad Shahid',
+    tagline: 'Chief Executive Officer',
+    description: 'At the helm of Cybersoft Vantage, our Chief Executive Officer orchestrates a symphony of innovation, excellence, and strategic direction, propelling us to new heights in the dynamic realm of technology.',
+    linkedin: 'https://www.linkedin.com/in/fouad-shahid-60ba5635/'
+  }, 
+  {
+    image: '/team/22.jpg',
+    heading: 'MUHAMMAD QASIM SHAMIM ALI KHAN',
+    tagline: 'COO & HEAD OF SALES',
+    description: 'As the driving force behind our operational excellence and revenue growth, our COO & Head of Sales at Cybersoft Vantage orchestrates a harmonious blend of strategy, execution, and customer-centric innovation, ensuring unparalleled success in the ever-evolving landscape of technology.',
     linkedin: 'https://www.linkedin.com/in/qasim-shamim/'
-  },
+  }, 
   {
-    image: '/team/2.webp',
-    heading: 'Muneeb ur Rehman',
-    tagline: 'Project Manager',
-    description: 'Introducing Muneeb ur Rehman, our dedicated Project Manager at CSV, orchestrating seamless execution and delivery of cutting-edge tech solutions.',
-    linkedin: 'https://www.linkedin.com/in/muneeb-ur-rehman-929647177/'
-  },
+    image: '/team/13.jpg',
+    heading: 'FAIZAN AFZAL',
+    tagline: 'Head of Projects',
+    description: 'As the architect of our project landscape, our Head of Projects at Cybersoft Vantage expertly navigates the complexities of IT initiatives, seamlessly blending vision with execution to drive transformative outcomes.',
+    linkedin: 'https://www.linkedin.com/in/faizan-afzal-365b34114/'
+  }, 
   {
-    image: '/team/3.webp',
-    heading: 'Ahmed Afzal Khan',
-    tagline: 'Business Development Officer',
-    description: 'Meet Ahmed Afzal Khan, our dynamic Business Development Officer at CSV, driving strategic partnerships and fostering growth opportunities in the ever-evolving tech landscape.',
-    linkedin: 'https://www.linkedin.com/in/ahmed-afzal-khan-800077140/'
-  },
+    image: '/team/27.jpg',
+    heading: 'TEHZEEB AHMAD',
+    tagline: 'Head of Human Resource',
+    description: 'At Cybersoft Vantage, our Head of Human Resources is the guardian of our company culture, nurturing a dynamic and inclusive environment where talent thrives, innovation flourishes, and success knows no bounds.',
+    linkedin: 'https://www.linkedin.com/in/tehzeeb-ahmad-925b55133/'
+  }, 
   {
-    image: '/team/4.png',
-    heading: 'Tahir Hussain',
-    tagline: 'Content Manager',
-    description: 'Meet Tahir Hussain, our visionary Content Manager at CSV, sculpting narratives that breathe life into our technological journey and connect with our audience on a deeper level.',
-    linkedin: 'https://www.linkedin.com/in/tahir-hussain-5861b7211/'
-  },
+    image: '/team/8.jpg',
+    heading: 'ALEEM AHMAD',
+    tagline: 'Project Coordinator',
+    description: 'As the linchpin of project success at Cybersoft Vantage, our Project Coordinator meticulously coordinates every aspect of our initiatives, ensuring seamless execution and delivering exceptional results that exceed expectations.',
+    linkedin: 'https://www.linkedin.com/in/aleem-ahmed-47399268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
+  }, 
 ]
 
 export const serviceCards: T.ServiceCards[] = [
