@@ -14,7 +14,7 @@ const HomePage = () => <><C.Hero
 
 
 
-  <C.AnimatedAccordiion />
+  {/* <C.AnimatedAccordiion /> */}
 
 
   <C.OurPeople />
